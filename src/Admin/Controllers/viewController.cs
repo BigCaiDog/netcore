@@ -27,5 +27,11 @@ namespace hrcore.AdminControllers
         {
             return APIReturn.成功;
         }
+
+        [Route(@"[action]/")]
+        public APIReturn test2()
+        {
+            return APIReturn.成功.SetMessage("成功2");
+        }
     }
 }

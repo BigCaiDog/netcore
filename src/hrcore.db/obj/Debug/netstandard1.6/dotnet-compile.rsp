@@ -1,5 +1,5 @@
---temp-output:C:\Users\HITCAIDOG\Desktop\netcore\src\hrcore.db\obj\Debug\netstandard1.6\
---out:C:\Users\HITCAIDOG\Desktop\netcore\src\hrcore.db\bin\Debug\netstandard1.6\hrcore.db.dll
+--temp-output:E:\websiteNetcore\src\hrcore.db\obj\Debug\netstandard1.6\
+--out:E:\websiteNetcore\src\hrcore.db\bin\Debug\netstandard1.6\hrcore.db.dll
 --define:DEBUG
 --define:TRACE
 --define:NETSTANDARD1_6
@@ -117,11 +117,11 @@
 --reference:C:\Users\HITCAIDOG\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\HITCAIDOG\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\HITCAIDOG\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll
---reference:C:\Users\HITCAIDOG\Desktop\netcore\src\Common\bin\Debug\netstandard1.6\Common.dll
-C:\Users\HITCAIDOG\Desktop\netcore\src\hrcore.db\BLL\Build\Person.cs
-C:\Users\HITCAIDOG\Desktop\netcore\src\hrcore.db\BLL\Build\RedisHelper.cs
-C:\Users\HITCAIDOG\Desktop\netcore\src\hrcore.db\DAL\Build\Person.cs
-C:\Users\HITCAIDOG\Desktop\netcore\src\hrcore.db\DAL\DBUtility\inc.cs
-C:\Users\HITCAIDOG\Desktop\netcore\src\hrcore.db\DAL\DBUtility\SqlHelper.cs
-C:\Users\HITCAIDOG\Desktop\netcore\src\hrcore.db\Model\Build\ExtensionMethods.cs
-C:\Users\HITCAIDOG\Desktop\netcore\src\hrcore.db\Model\Build\PersonInfo.cs
+--reference:E:\websiteNetcore\src\Common\bin\Debug\netstandard1.6\Common.dll
+E:\websiteNetcore\src\hrcore.db\BLL\Build\Person.cs
+E:\websiteNetcore\src\hrcore.db\BLL\Build\RedisHelper.cs
+E:\websiteNetcore\src\hrcore.db\DAL\Build\Person.cs
+E:\websiteNetcore\src\hrcore.db\DAL\DBUtility\inc.cs
+E:\websiteNetcore\src\hrcore.db\DAL\DBUtility\SqlHelper.cs
+E:\websiteNetcore\src\hrcore.db\Model\Build\ExtensionMethods.cs
+E:\websiteNetcore\src\hrcore.db\Model\Build\PersonInfo.cs

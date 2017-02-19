@@ -69,7 +69,7 @@ namespace hrcore.Admin {
 			services.AddSingleton<IHostingEnvironment>(env);
             services.AddDataProtection();
             //配置https
-            services.Configure<Microsoft.AspNetCore.Server.Kestrel.KestrelServerOptions>(option => { option.UseHttps(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "hitcaidogpfx.pfx")); });
+            services.Configure<Microsoft.AspNetCore.Server.Kestrel.KestrelServerOptions>(option => { option.UseHttps(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "hitcaidogpfx.pfx"), "123qwe"); });
 
 		}
 
