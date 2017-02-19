@@ -1,0 +1,492 @@
+2017-02-09 00:21:20.6742|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\HITCAIDOG\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-02-09 00:21:20.7032|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-02-09 00:21:20.7602|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-02-09 00:21:36.1132|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" started. 
+2017-02-09 00:21:36.1132|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" started. 
+2017-02-09 00:21:36.2292|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/   
+2017-02-09 00:21:36.2512|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\HITCAIDOG\AppData\Local\ASP.NET\DataProtection-Keys\key-45bbf2e7-d395-480c-91f6-964c69d74eef.xml'. 
+2017-02-09 00:21:36.2512|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {45bbf2e7-d395-480c-91f6-964c69d74eef}. 
+2017-02-09 00:21:36.2672|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {45bbf2e7-d395-480c-91f6-964c69d74eef} with expiration date 2017-05-08 16:14:53Z as default key. 
+2017-02-09 00:21:36.2672|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-02-09 00:21:36.2822|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '' with chaining mode CBC. 
+2017-02-09 00:21:36.2822|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '' with HMAC. 
+2017-02-09 00:21:36.2822|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {45bbf2e7-d395-480c-91f6-964c69d74eef} as the default key. 
+2017-02-09 00:21:36.4182|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:36.4352|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/index.html'. Physical path: 'C:\Users\HITCAIDOG\Desktop\netcore\src\Admin\wwwroot\index.html' 
+2017-02-09 00:21:36.4942|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" started. 
+2017-02-09 00:21:36.4942|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" started. 
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/font-awesome/css/font-awesome.min.css   
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" started. 
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" started. 
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/pace/pace.min.css   
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/pace/pace.min.css does not match an existing file 
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/css/skins/_all-skins.css   
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/css/skins/_all-skins.css does not match an existing file 
+2017-02-09 00:21:36.5162|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/timepicker/bootstrap-timepicker.min.css   
+2017-02-09 00:21:36.5082|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:36.5162|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/font-awesome/css/font-awesome.min.css does not match an existing file 
+2017-02-09 00:21:36.5162|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/datepicker/datepicker3.css   
+2017-02-09 00:21:36.5162|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:36.5162|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/datepicker/datepicker3.css does not match an existing file 
+2017-02-09 00:21:36.5162|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:36.5162|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/timepicker/bootstrap-timepicker.min.css does not match an existing file 
+2017-02-09 00:21:57.5082|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:21:57.5212|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:21:57.5212|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:21:57.5212|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:21:57.5212|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:21:57.5382|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21010.3772ms 404  
+2017-02-09 00:21:57.5382|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21024.0289ms 404  
+2017-02-09 00:21:57.5382|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21013.4273ms 404  
+2017-02-09 00:21:57.5382|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21305.7154ms 200 text/html 
+2017-02-09 00:21:57.5502|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" completed keep alive response. 
+2017-02-09 00:21:57.5382|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21008.5785ms 404  
+2017-02-09 00:21:57.5722|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" completed keep alive response. 
+2017-02-09 00:21:57.5722|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/treetable/css/jquery.treetable.css   
+2017-02-09 00:21:57.5502|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" completed keep alive response. 
+2017-02-09 00:21:57.5722|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:57.5722|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/treetable/css/jquery.treetable.css does not match an existing file 
+2017-02-09 00:21:57.5722|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/bootstrap/css/bootstrap.min.css   
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/bootstrap/css/bootstrap.min.css does not match an existing file 
+2017-02-09 00:21:57.5502|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" completed keep alive response. 
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/treetable/css/jquery.treetable.theme.default.css   
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/treetable/css/jquery.treetable.theme.default.css does not match an existing file 
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/multiple-select/multiple-select.css   
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/multiple-select/multiple-select.css does not match an existing file 
+2017-02-09 00:21:57.5502|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" completed keep alive response. 
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/select2/select2.min.css   
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:57.5762|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/select2/select2.min.css does not match an existing file 
+2017-02-09 00:21:57.5082|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:21:57.5922|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21081.3904ms 404  
+2017-02-09 00:21:57.5922|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" completed keep alive response. 
+2017-02-09 00:21:57.5922|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/css/system.css   
+2017-02-09 00:21:57.5922|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:21:57.5922|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/css/system.css does not match an existing file 
+2017-02-09 00:22:18.5772|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:18.5772|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 20996.6183ms 404  
+2017-02-09 00:22:18.5772|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" completed keep alive response. 
+2017-02-09 00:22:18.5772|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:18.5772|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21010.133ms 404  
+2017-02-09 00:22:18.5772|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" completed keep alive response. 
+2017-02-09 00:22:18.5772|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:18.5932|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21005.9997ms 404  
+2017-02-09 00:22:18.5932|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" completed keep alive response. 
+2017-02-09 00:22:18.5772|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:18.5932|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21024.4737ms 404  
+2017-02-09 00:22:18.5932|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" completed keep alive response. 
+2017-02-09 00:22:18.5772|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21025.9516ms 404  
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" completed keep alive response. 
+2017-02-09 00:22:18.5932|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21015.5311ms 404  
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" completed keep alive response. 
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/css/index.css   
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/css/index.css does not match an existing file 
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/bootstrap/js/bootstrap.min.js   
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/pace/pace.min.js   
+2017-02-09 00:22:18.6322|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:18.6322|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/pace/pace.min.js does not match an existing file 
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/timepicker/bootstrap-timepicker.min.js   
+2017-02-09 00:22:18.6412|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:18.6412|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/timepicker/bootstrap-timepicker.min.js does not match an existing file 
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/jQuery-2.1.4.min.js   
+2017-02-09 00:22:18.6412|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:18.6412|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/jQuery-2.1.4.min.js does not match an existing file 
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/datepicker/bootstrap-datepicker.js   
+2017-02-09 00:22:18.6412|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:18.6412|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/datepicker/bootstrap-datepicker.js does not match an existing file 
+2017-02-09 00:22:18.6072|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/bootstrap/js/bootstrap.min.js does not match an existing file 
+2017-02-09 00:22:39.6092|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:39.6092|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 20998.2464ms 404  
+2017-02-09 00:22:39.6092|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" completed keep alive response. 
+2017-02-09 00:22:39.6092|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/select2/select2.full.min.js   
+2017-02-09 00:22:39.6092|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:39.6182|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/select2/select2.full.min.js does not match an existing file 
+2017-02-09 00:22:39.6422|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:39.6422|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21030.6135ms 404  
+2017-02-09 00:22:39.6422|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" completed keep alive response. 
+2017-02-09 00:22:39.6422|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:39.6422|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/input-mask/jquery.inputmask.js   
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/input-mask/jquery.inputmask.js does not match an existing file 
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21036.6812ms 404  
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" completed keep alive response. 
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21041.727ms 404  
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" completed keep alive response. 
+2017-02-09 00:22:39.6422|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21044.2733ms 404  
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" completed keep alive response. 
+2017-02-09 00:22:39.6422|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21033.7336ms 404  
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" completed keep alive response. 
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/treetable/jquery.treetable.js   
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/treetable/jquery.treetable.js does not match an existing file 
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/input-mask/jquery.inputmask.extensions.js   
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/input-mask/jquery.inputmask.extensions.js does not match an existing file 
+2017-02-09 00:22:39.6492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/input-mask/jquery.inputmask.date.extensions.js   
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/input-mask/jquery.inputmask.date.extensions.js does not match an existing file 
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/multiple-select/multiple-select.js   
+2017-02-09 00:22:39.6652|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:22:39.6812|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/multiple-select/multiple-select.js does not match an existing file 
+2017-02-09 00:23:00.6242|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:00.6242|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21007.8442ms 404  
+2017-02-09 00:23:00.6242|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" completed keep alive response. 
+2017-02-09 00:23:00.6242|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/lib.js   
+2017-02-09 00:23:00.6242|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:23:00.6242|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/lib.js does not match an existing file 
+2017-02-09 00:23:00.6512|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:00.6512|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21004.0147ms 404  
+2017-02-09 00:23:00.6512|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" completed keep alive response. 
+2017-02-09 00:23:00.6512|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/bmw.js   
+2017-02-09 00:23:00.6512|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:23:00.6512|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/bmw.js does not match an existing file 
+2017-02-09 00:23:00.6772|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21013.04ms 404  
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" completed keep alive response. 
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21009.2966ms 404  
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" completed keep alive response. 
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/system.js   
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/system.js does not match an existing file 
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/admin.js   
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/admin.js does not match an existing file 
+2017-02-09 00:23:00.6782|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21023.9089ms 404  
+2017-02-09 00:23:00.6942|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" completed keep alive response. 
+2017-02-09 00:23:00.6942|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/img/user2-160x160.jpg   
+2017-02-09 00:23:00.6942|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:23:00.6942|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/img/user2-160x160.jpg does not match an existing file 
+2017-02-09 00:23:00.6772|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:00.6942|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21035.8634ms 404  
+2017-02-09 00:23:00.6942|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" completed keep alive response. 
+2017-02-09 00:23:21.6402|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:21.6402|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21014.2425ms 404  
+2017-02-09 00:23:21.6452|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" completed keep alive response. 
+2017-02-09 00:23:21.6452|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:21.6452|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 20998.0198ms 404  
+2017-02-09 00:23:21.6452|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" completed keep alive response. 
+2017-02-09 00:23:21.6872|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:21.6872|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21004.7811ms 404  
+2017-02-09 00:23:21.6872|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" completed keep alive response. 
+2017-02-09 00:23:21.6992|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:21.7222|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21037.3102ms 404  
+2017-02-09 00:23:21.7232|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" completed keep alive response. 
+2017-02-09 00:23:21.6992|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:21.7232|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21031.817ms 404  
+2017-02-09 00:23:21.7232|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" completed keep alive response. 
+2017-02-09 00:23:21.7232|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/favicon.ico   
+2017-02-09 00:23:21.7232|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:23:21.7232|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /favicon.ico does not match an existing file 
+2017-02-09 00:23:42.7402|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.17.65.49:6379
+2017-02-09 00:23:42.7402|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 21008.9016ms 404  
+2017-02-09 00:23:42.7402|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" completed keep alive response. 
+2017-02-09 00:28:08.4532|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" received FIN. 
+2017-02-09 00:28:08.4532|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" disconnecting. 
+2017-02-09 00:28:08.4702|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" sending FIN. 
+2017-02-09 00:28:08.4702|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" sent FIN with status "0". 
+2017-02-09 00:28:08.4702|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V0" stopped. 
+2017-02-09 00:28:28.4522|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" received FIN. 
+2017-02-09 00:28:28.4522|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" received FIN. 
+2017-02-09 00:28:28.4822|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" disconnecting. 
+2017-02-09 00:28:28.4822|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" sending FIN. 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" sent FIN with status "0". 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UU" stopped. 
+2017-02-09 00:28:28.4522|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" disconnecting. 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" sending FIN. 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" sent FIN with status "0". 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UV" stopped. 
+2017-02-09 00:28:28.4522|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" received FIN. 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" disconnecting. 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" sending FIN. 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" sent FIN with status "0". 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0US" stopped. 
+2017-02-09 00:28:28.4522|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" received FIN. 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" disconnecting. 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" sending FIN. 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" sent FIN with status "0". 
+2017-02-09 00:28:28.4832|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0V1" stopped. 
+2017-02-09 00:28:48.4542|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" received FIN. 
+2017-02-09 00:28:48.4542|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" disconnecting. 
+2017-02-09 00:28:48.5042|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" sending FIN. 
+2017-02-09 00:28:48.5042|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" sent FIN with status "0". 
+2017-02-09 00:28:48.5042|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G7Q6QM0UT" stopped. 
+2017-02-09 00:39:17.7292|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\HITCAIDOG\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-02-09 00:39:17.7592|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-02-09 00:39:17.8112|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-02-09 00:39:21.7682|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" started. 
+2017-02-09 00:39:21.7682|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" started. 
+2017-02-09 00:39:21.7702|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" started. 
+2017-02-09 00:39:21.7682|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" started. 
+2017-02-09 00:39:21.7702|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" started. 
+2017-02-09 00:39:21.7702|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" started. 
+2017-02-09 00:39:21.8362|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/   
+2017-02-09 00:39:21.8592|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\HITCAIDOG\AppData\Local\ASP.NET\DataProtection-Keys\key-45bbf2e7-d395-480c-91f6-964c69d74eef.xml'. 
+2017-02-09 00:39:21.8632|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {45bbf2e7-d395-480c-91f6-964c69d74eef}. 
+2017-02-09 00:39:21.8632|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {45bbf2e7-d395-480c-91f6-964c69d74eef} with expiration date 2017-05-08 16:14:53Z as default key. 
+2017-02-09 00:39:21.8782|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-02-09 00:39:21.8782|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '' with chaining mode CBC. 
+2017-02-09 00:39:21.8782|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '' with HMAC. 
+2017-02-09 00:39:21.8992|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {45bbf2e7-d395-480c-91f6-964c69d74eef} as the default key. 
+2017-02-09 00:39:22.0252|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.0432|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|The file /index.html was not modified 
+2017-02-09 00:39:22.0432|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|Handled. Status code: 304 File: /index.html 
+2017-02-09 00:39:22.0742|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. ERR Client sent AUTH, but no password is set
+2017-02-09 00:39:22.0822|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 255.4257ms 304 text/html 
+2017-02-09 00:39:22.1072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" completed keep alive response. 
+2017-02-09 00:39:22.1192|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/bootstrap/css/bootstrap.min.css   
+2017-02-09 00:39:22.1192|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/font-awesome/css/font-awesome.min.css   
+2017-02-09 00:39:22.1192|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1192|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1192|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/pace/pace.min.css   
+2017-02-09 00:39:22.1192|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/css/skins/_all-skins.css   
+2017-02-09 00:39:22.1192|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/font-awesome/css/font-awesome.min.css does not match an existing file 
+2017-02-09 00:39:22.1192|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/bootstrap/css/bootstrap.min.css does not match an existing file 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/datepicker/datepicker3.css   
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/css/skins/_all-skins.css does not match an existing file 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 18.65ms 404  
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" completed keep alive response. 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 17.556ms 404  
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" completed keep alive response. 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 19.7983ms 404  
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" completed keep alive response. 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/timepicker/bootstrap-timepicker.min.css   
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/timepicker/bootstrap-timepicker.min.css does not match an existing file 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/select2/select2.min.css   
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/select2/select2.min.css does not match an existing file 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 12.6162ms 404  
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" completed keep alive response. 
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/multiple-select/multiple-select.css   
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/multiple-select/multiple-select.css does not match an existing file 
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 13.1841ms 404  
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" completed keep alive response. 
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.0298ms 404  
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" completed keep alive response. 
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/css/system.css   
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/css/system.css does not match an existing file 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.0558ms 404  
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" completed keep alive response. 
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/css/index.css   
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/css/index.css does not match an existing file 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/pace/pace.min.css does not match an existing file 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/jQuery-2.1.4.min.js   
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 4.5448ms 404  
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" completed keep alive response. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/jQuery-2.1.4.min.js does not match an existing file 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/treetable/css/jquery.treetable.css   
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/treetable/css/jquery.treetable.css does not match an existing file 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. ERR Client sent AUTH, but no password is set
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 44.4251ms 404  
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" completed keep alive response. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 24.5238ms 404  
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" completed keep alive response. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/pace/pace.min.js   
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1282|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/datepicker/datepicker3.css does not match an existing file 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 39.9681ms 404  
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" completed keep alive response. 
+2017-02-09 00:39:22.1492|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/treetable/css/jquery.treetable.theme.default.css   
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/treetable/css/jquery.treetable.theme.default.css does not match an existing file 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 20.0936ms 404  
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" completed keep alive response. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/bootstrap/js/bootstrap.min.js   
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 3.0618ms 404  
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" completed keep alive response. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/bootstrap/js/bootstrap.min.js does not match an existing file 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 8.7369ms 404  
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" completed keep alive response. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/timepicker/bootstrap-timepicker.min.js   
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/timepicker/bootstrap-timepicker.min.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/input-mask/jquery.inputmask.date.extensions.js   
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/input-mask/jquery.inputmask.date.extensions.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.2265ms 404  
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" completed keep alive response. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/datepicker/bootstrap-datepicker.js   
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/datepicker/bootstrap-datepicker.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/input-mask/jquery.inputmask.extensions.js   
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/input-mask/jquery.inputmask.extensions.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.1082ms 404  
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" completed keep alive response. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2.3922ms 404  
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" completed keep alive response. 
+2017-02-09 00:39:22.1592|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/pace/pace.min.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/select2/select2.full.min.js   
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 14.2849ms 404  
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" completed keep alive response. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/lib.js   
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/lib.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/select2/select2.full.min.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.2244ms 404  
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" completed keep alive response. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.4881ms 404  
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" completed keep alive response. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/bmw.js   
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/input-mask/jquery.inputmask.js   
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/input-mask/jquery.inputmask.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/treetable/jquery.treetable.js   
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/treetable/jquery.treetable.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/bmw.js does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 8.9596ms 404  
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" completed keep alive response. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 10.028ms 404  
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 4.556ms 404  
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" completed keep alive response. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" completed keep alive response. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/system.js   
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/system.js does not match an existing file 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.4176ms 404  
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" completed keep alive response. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/img/user2-160x160.jpg   
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/img/user2-160x160.jpg does not match an existing file 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 8.8102ms 404  
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" completed keep alive response. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1.3207ms 404  
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" completed keep alive response. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/js/admin.js   
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/js/admin.js does not match an existing file 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 3.4355ms 404  
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" completed keep alive response. 
+2017-02-09 00:39:22.1742|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/plugins/multiple-select/multiple-select.js   
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/plugins/multiple-select/multiple-select.js does not match an existing file 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 13.6728ms 404  
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" completed keep alive response. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/htm/img/user2-160x160.jpg   
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:39:22.1902|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /htm/img/user2-160x160.jpg does not match an existing file 
+2017-02-09 00:39:22.2062|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2.0519ms 404  
+2017-02-09 00:39:22.2062|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" completed keep alive response. 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" received FIN. 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" received FIN. 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" received FIN. 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" received FIN. 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" disconnecting. 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" disconnecting. 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" disconnecting. 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" disconnecting. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" sending FIN. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" sending FIN. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" sending FIN. 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" received FIN. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" disconnecting. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" sending FIN. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" sent FIN with status "0". 
+2017-02-09 00:44:31.7902|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" received FIN. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" sending FIN. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" sent FIN with status "0". 
+2017-02-09 00:44:31.8212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" disconnecting. 
+2017-02-09 00:44:31.8212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQT" stopped. 
+2017-02-09 00:44:31.8212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" sending FIN. 
+2017-02-09 00:44:31.8212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" sent FIN with status "0". 
+2017-02-09 00:44:31.8212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR1" stopped. 
+2017-02-09 00:44:31.8212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQS" stopped. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" sent FIN with status "0". 
+2017-02-09 00:44:31.8212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDR0" stopped. 
+2017-02-09 00:44:31.8212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" sent FIN with status "0". 
+2017-02-09 00:44:31.8212|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQU" stopped. 
+2017-02-09 00:44:31.8072|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" sent FIN with status "0". 
+2017-02-09 00:44:31.8422|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G844DIDQV" stopped. 
+2017-02-09 00:46:13.9852|Microsoft.Extensions.DependencyInjection.DataProtectionServices|INFO|User profile is available. Using 'C:\Users\HITCAIDOG\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2017-02-09 00:46:14.0152|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2017-02-09 00:46:14.0682|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2017-02-09 00:46:36.9112|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSS" started. 
+2017-02-09 00:46:36.9752|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/favicon.ico   
+2017-02-09 00:46:36.9972|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|DEBUG|Reading data from file 'C:\Users\HITCAIDOG\AppData\Local\ASP.NET\DataProtection-Keys\key-45bbf2e7-d395-480c-91f6-964c69d74eef.xml'. 
+2017-02-09 00:46:36.9972|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|DEBUG|Found key {45bbf2e7-d395-480c-91f6-964c69d74eef}. 
+2017-02-09 00:46:36.9972|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|DEBUG|Considering key {45bbf2e7-d395-480c-91f6-964c69d74eef} with expiration date 2017-05-08 16:14:53Z as default key. 
+2017-02-09 00:46:37.0172|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|DEBUG|Decrypting secret element using Windows DPAPI. 
+2017-02-09 00:46:37.0172|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'AES' from provider '' with chaining mode CBC. 
+2017-02-09 00:46:37.0302|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.CngCbcAuthenticatedEncryptorDescriptor|DEBUG|Opening CNG algorithm 'SHA256' from provider '' with HMAC. 
+2017-02-09 00:46:37.0302|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|DEBUG|Using key {45bbf2e7-d395-480c-91f6-964c69d74eef} as the default key. 
+2017-02-09 00:46:37.1622|Microsoft.AspNetCore.Builder.RouterMiddleware|DEBUG|Request did not match any routes. 
+2017-02-09 00:46:37.1712|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path /favicon.ico does not match an existing file 
+2017-02-09 00:46:37.1932|Microsoft.AspNetCore.Session.SessionMiddleware|ERROR|Error closing the session. ERR Client sent AUTH, but no password is set
+2017-02-09 00:46:37.2012|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 235.567ms 404  
+2017-02-09 00:46:37.2252|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSS" completed keep alive response. 
+2017-02-09 00:46:38.9342|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJST" started. 
+2017-02-09 00:46:38.9342|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSU" started. 
+2017-02-09 00:46:38.9342|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSV" started. 
+2017-02-09 00:46:38.9342|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT1" started. 
+2017-02-09 00:46:38.9342|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT0" started. 
+2017-02-09 00:46:38.9502|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/mapi/test   
+2017-02-09 00:46:38.9502|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'mapi/test'. 
+2017-02-09 00:46:38.9962|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action hrcore.AdminControllers.viewController.test (Admin) 
+2017-02-09 00:46:39.0472|hrcore.AdminControllers.viewController|DEBUG|请求发起 
+2017-02-09 00:46:39.0472|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method hrcore.AdminControllers.viewController.test (Admin) with arguments () - ModelState is Valid 
+2017-02-09 00:46:39.0592|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method hrcore.AdminControllers.viewController.test (Admin), returned result APIReturn. 
+2017-02-09 00:46:39.0762|Microsoft.AspNetCore.Mvc.ContentResult|INFO|Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8 
+2017-02-09 00:46:39.0762|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action hrcore.AdminControllers.viewController.test (Admin) in 84.3462ms 
+2017-02-09 00:46:39.0862|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 135.813ms 200 text/plain; charset=utf-8 
+2017-02-09 00:46:39.0862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSS" completed keep alive response. 
+2017-02-09 00:46:39.0862|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://127.0.0.1:20000/mapi/test   
+2017-02-09 00:46:39.0862|Microsoft.AspNetCore.Routing.Tree.TreeRouter|DEBUG|Request successfully matched the route with name '' and template 'mapi/test'. 
+2017-02-09 00:46:39.0862|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action hrcore.AdminControllers.viewController.test (Admin) 
+2017-02-09 00:46:39.0862|hrcore.AdminControllers.viewController|DEBUG|请求发起 
+2017-02-09 00:46:39.0862|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method hrcore.AdminControllers.viewController.test (Admin) with arguments () - ModelState is Valid 
+2017-02-09 00:46:39.0862|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method hrcore.AdminControllers.viewController.test (Admin), returned result APIReturn. 
+2017-02-09 00:46:39.0862|Microsoft.AspNetCore.Mvc.ContentResult|INFO|Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8 
+2017-02-09 00:46:39.1022|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action hrcore.AdminControllers.viewController.test (Admin) in 1.8511ms 
+2017-02-09 00:46:39.1022|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 4.7155ms 200 text/plain; charset=utf-8 
+2017-02-09 00:46:39.1022|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSS" completed keep alive response. 
+2017-02-09 00:46:57.1622|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSV" received FIN. 
+2017-02-09 00:46:57.1622|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJST" received FIN. 
+2017-02-09 00:46:57.1622|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT1" received FIN. 
+2017-02-09 00:46:57.1692|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJST" disconnecting. 
+2017-02-09 00:46:57.1622|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT0" received FIN. 
+2017-02-09 00:46:57.1622|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSU" received FIN. 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT1" disconnecting. 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSU" disconnecting. 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSU" sending FIN. 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSV" disconnecting. 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSV" sending FIN. 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT0" disconnecting. 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT0" sending FIN. 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSV" sent FIN with status "0". 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT0" sent FIN with status "0". 
+2017-02-09 00:46:57.1992|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSU" sent FIN with status "0". 
+2017-02-09 00:46:57.1992|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSV" stopped. 
+2017-02-09 00:46:57.1862|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJST" sending FIN. 
+2017-02-09 00:46:57.2352|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT1" sending FIN. 
+2017-02-09 00:46:57.2352|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT1" sent FIN with status "0". 
+2017-02-09 00:46:57.2352|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT1" stopped. 
+2017-02-09 00:46:57.2352|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJST" sent FIN with status "0". 
+2017-02-09 00:46:57.1992|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJT0" stopped. 
+2017-02-09 00:46:57.2352|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJST" stopped. 
+2017-02-09 00:46:57.1992|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL2G8863CJSU" stopped. 
