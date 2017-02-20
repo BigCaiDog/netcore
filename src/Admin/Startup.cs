@@ -18,14 +18,18 @@ using System.IO;
 namespace hrcore.Admin {
 	public class Startup {
 		public Startup(IHostingEnvironment env) {
-			var builder = new ConfigurationBuilder()
-				.SetBasePath(env.ContentRootPath)
-				.AddJsonFile("appsettings.json", true, true);
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath);
 
-			//if (env.IsProduction())
-			//	builder.AddJsonFile("/var/webos/hrcore/appsettings.json", true, true);
+            if (incSys.isDubug)
+                builder = builder.AddJsonFile("appsettingsDebug.json", true, true);
+            else
+                builder = builder.AddJsonFile("appsettingsRelease.json", true, true);
 
-			this.Configuration = builder.AddEnvironmentVariables().Build();
+            //if (env.IsProduction())
+            //	builder.AddJsonFile("/var/webos/hrcore/appsettings.json", true, true);
+
+            this.Configuration = builder.AddEnvironmentVariables().Build();
 			this.env = env;
 
 			Newtonsoft.Json.JsonConvert.DefaultSettings = () => {

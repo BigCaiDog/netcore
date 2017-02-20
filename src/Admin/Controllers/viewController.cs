@@ -21,6 +21,7 @@ namespace hrcore.AdminControllers
     public class viewController:BaseAdminController
     {
         public viewController(ILogger<viewController> logger) : base(logger) { }
+
         [RequireHttps]
         [Route(@"[action]/")]
         public APIReturn test()
